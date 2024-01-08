@@ -1,0 +1,84 @@
+{
+    "timestamp": "2023-12-05T20:11:41.699+0200",
+    "rule": {
+        "level": 7,
+        "description": "File deleted.",
+        "id": "553",
+        "mitre": {
+            "id": [
+                "T1070.004",
+                "T1485"
+            ],
+            "tactic": [
+                "Defense Evasion",
+                "Impact"
+            ],
+            "technique": [
+                "File Deletion",
+                "Data Destruction"
+            ]
+        },
+        "firedtimes": 1,
+        "mail": false,
+        "groups": [
+            "ossec",
+            "syscheck",
+            "syscheck_entry_deleted",
+            "syscheck_file"
+        ],
+        "pci_dss": [
+            "11.5"
+        ],
+        "gpg13": [
+            "4.11"
+        ],
+        "gdpr": [
+            "II_5.1.f"
+        ],
+        "hipaa": [
+            "164.312.c.1",
+            "164.312.c.2"
+        ],
+        "nist_800_53": [
+            "SI.7"
+        ],
+        "tsc": [
+            "PI1.4",
+            "PI1.5",
+            "CC6.1",
+            "CC6.8",
+            "CC7.2",
+            "CC7.3"
+        ]
+    },
+    "agent": {
+        "id": "001",
+        "name": "ubuntu-22",
+        "ip": "192.168.1.11"
+    },
+    "manager": {
+        "name": "wazuh"
+    },
+    "id": "1701799901.825771",
+    "full_log": "File '/home/jeni/Downloads/cat2.jpg' deleted\nMode: realtime\n",
+    "syscheck": {
+        "path": "/home/jeni/Downloads/cat2.jpg",
+        "mode": "realtime",
+        "size_after": "75489",
+        "perm_after": "rw-rw-r--",
+        "uid_after": "1000",
+        "gid_after": "1000",
+        "md5_after": "a91b231be2fbc9cafefaa992dc6d8b67",
+        "sha1_after": "efacb29178dc0c64b5ab1ca1d60cb71bc9d65247",
+        "sha256_after": "46804e5fe669c462249c820537d6710e59166c3d7214fac4350770aeddec6f98",
+        "uname_after": "jeni",
+        "gname_after": "jeni",
+        "mtime_after": "2023-12-05T20: 08: 46",
+        "inode_after": 733058,
+        "event": "deleted"
+    },
+    "decoder": {
+        "name": "syscheck_deleted"
+    },
+    "location": "syscheck"
+}

@@ -1,0 +1,42 @@
+2024/01/08 20:10:33 INFO: Checking RBAC database integrity...
+2024/01/08 20:10:33 INFO: /var/ossec/api/configuration/security/rbac.db file was detected
+2024/01/08 20:10:33 INFO: RBAC database integrity check finished successfully
+2024/01/08 20:10:49 INFO: Listening on 0.0.0.0:55000..
+2024/01/08 20:13:32 INFO: wazuh-wui 127.0.0.1 "POST /security/user/authenticate" with parameters {} and body {} done in 9.911s: 200
+2024/01/08 20:13:33 INFO: wazuh-wui 127.0.0.1 "GET /cluster/status" with parameters {} and body {} done in 1.696s: 200
+2024/01/08 20:13:34 INFO: wazuh-wui 127.0.0.1 "GET /agents" with parameters {"offset": "0", "limit": "1", "q": "id!=000"} and body {} done in 0.218s: 200
+2024/01/08 20:13:34 INFO: wazuh-wui 127.0.0.1 "GET /agents" with parameters {"offset": "0", "limit": "500", "q": "id!=000"} and body {} done in 0.164s: 200
+2024/01/08 20:15:00 INFO: wazuh-wui 127.0.0.1 "GET /manager/stats/remoted" with parameters {} and body {} done in 0.063s: 200
+2024/01/08 20:15:00 INFO: wazuh-wui 127.0.0.1 "GET /manager/stats/analysisd" with parameters {} and body {} done in 0.043s: 200
+2024/01/08 20:15:00 INFO: wazuh-wui 127.0.0.1 "GET /cluster/status" with parameters {} and body {} done in 0.070s: 200
+2024/01/08 20:15:00 INFO: wazuh-wui 127.0.0.1 "GET /agents" with parameters {"offset": "0", "limit": "1", "q": "id!=000"} and body {} done in 0.048s: 200
+2024/01/08 20:15:00 INFO: wazuh-wui 127.0.0.1 "GET /agents" with parameters {"offset": "0", "limit": "500", "q": "id!=000"} and body {} done in 0.041s: 200
+2024/01/08 20:20:01 INFO: wazuh-wui 127.0.0.1 "GET /manager/stats/remoted" with parameters {} and body {} done in 0.032s: 200
+2024/01/08 20:25:00 INFO: wazuh-wui 127.0.0.1 "GET /manager/stats/analysisd" with parameters {} and body {} done in 0.167s: 200
+2024/01/08 20:25:00 INFO: wazuh-wui 127.0.0.1 "GET /manager/stats/remoted" with parameters {} and body {} done in 0.055s: 200
+2024/01/08 20:30:01 INFO: unknown_user 127.0.0.1 "GET /manager/stats/analysisd" with parameters {} and body {} done in 0.134s: 401
+2024/01/08 20:30:01 INFO: unknown_user 127.0.0.1 "GET /manager/stats/remoted" with parameters {} and body {} done in 0.006s: 401
+2024/01/08 20:30:01 INFO: unknown_user 127.0.0.1 "GET /cluster/status" with parameters {} and body {} done in 0.012s: 401
+2024/01/08 20:30:05 INFO: wazuh-wui 127.0.0.1 "POST /security/user/authenticate" with parameters {} and body {} done in 4.354s: 200
+2024/01/08 20:30:05 INFO: wazuh-wui 127.0.0.1 "POST /security/user/authenticate" with parameters {} and body {} done in 1.961s: 200
+2024/01/08 20:30:05 INFO: wazuh-wui 127.0.0.1 "POST /security/user/authenticate" with parameters {} and body {} done in 1.967s: 200
+2024/01/08 20:30:05 INFO: wazuh-wui 127.0.0.1 "GET /manager/stats/remoted" with parameters {} and body {} done in 0.107s: 200
+2024/01/08 20:30:06 INFO: wazuh-wui 127.0.0.1 "GET /manager/stats/analysisd" with parameters {} and body {} done in 0.073s: 200
+2024/01/08 20:30:06 INFO: wazuh-wui 127.0.0.1 "GET /cluster/status" with parameters {} and body {} done in 0.103s: 200
+2024/01/08 20:30:06 INFO: wazuh-wui 127.0.0.1 "GET /agents" with parameters {"offset": "0", "limit": "1", "q": "id!=000"} and body {} done in 0.160s: 200
+2024/01/08 20:30:06 INFO: wazuh-wui 127.0.0.1 "GET /agents" with parameters {"offset": "0", "limit": "500", "q": "id!=000"} and body {} done in 0.015s: 200
+2024/01/08 20:35:00 INFO: wazuh-wui 127.0.0.1 "GET /manager/stats/analysisd" with parameters {} and body {} done in 0.033s: 200
+2024/01/08 20:35:00 INFO: wazuh-wui 127.0.0.1 "GET /manager/stats/remoted" with parameters {} and body {} done in 0.044s: 200
+2024/01/08 20:40:00 INFO: wazuh-wui 127.0.0.1 "GET /manager/stats/analysisd" with parameters {} and body {} done in 0.045s: 200
+2024/01/08 20:40:00 INFO: wazuh-wui 127.0.0.1 "GET /manager/stats/remoted" with parameters {} and body {} done in 0.017s: 200
+2024/01/08 20:45:00 INFO: wazuh-wui 127.0.0.1 "GET /manager/stats/analysisd" with parameters {} and body {} done in 0.115s: 200
+2024/01/08 20:45:00 INFO: wazuh-wui 127.0.0.1 "GET /cluster/status" with parameters {} and body {} done in 0.086s: 200
+2024/01/08 20:45:00 INFO: wazuh-wui 127.0.0.1 "GET /manager/stats/remoted" with parameters {} and body {} done in 0.091s: 200
+2024/01/08 20:45:00 INFO: wazuh-wui 127.0.0.1 "GET /agents" with parameters {"offset": "0", "limit": "1", "q": "id!=000"} and body {} done in 0.048s: 200
+2024/01/08 20:45:00 INFO: wazuh-wui 127.0.0.1 "GET /agents" with parameters {"offset": "0", "limit": "500", "q": "id!=000"} and body {} done in 0.021s: 200
+2024/01/08 20:50:00 INFO: unknown_user 127.0.0.1 "GET /manager/stats/remoted" with parameters {} and body {} done in 0.003s: 401
+2024/01/08 20:50:00 INFO: unknown_user 127.0.0.1 "GET /manager/stats/analysisd" with parameters {} and body {} done in 0.003s: 401
+2024/01/08 20:50:07 INFO: wazuh-wui 127.0.0.1 "POST /security/user/authenticate" with parameters {} and body {} done in 6.570s: 200
+2024/01/08 20:50:07 INFO: wazuh-wui 127.0.0.1 "POST /security/user/authenticate" with parameters {} and body {} done in 6.197s: 200
+2024/01/08 20:50:07 INFO: wazuh-wui 127.0.0.1 "GET /manager/stats/remoted" with parameters {} and body {} done in 0.077s: 200
+2024/01/08 20:50:07 INFO: wazuh-wui 127.0.0.1 "GET /manager/stats/analysisd" with parameters {} and body {} done in 0.030s: 200

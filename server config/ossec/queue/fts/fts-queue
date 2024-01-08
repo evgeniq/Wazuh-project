@@ -1,0 +1,7 @@
+ossec        (ubuntu-22) any->wazuh-agent
+ossec        (DESKTOP-HLAM1BV) any->wazuh-agent
+ossec        (DESKTOP-KHSEO47) any->wazuh-agent
+sudo   root     (ubuntu-22) any->/var/log/auth.log
+sudo   root     /var/log/auth.log
+sudo   wazuh     /var/log/auth.log
+ossec        (wazuh-test) any->wazuh-agent

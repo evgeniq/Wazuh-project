@@ -1,0 +1,13 @@
+# See: man pkg-config
+prefix=/var/ossec/framework/python
+exec_prefix=${prefix}
+libdir=/var/ossec/framework/python/lib
+includedir=${prefix}/include
+
+Name: Python
+Description: Embed Python into an application
+Requires:
+Version: 3.9
+Libs.private: -lwazuhext -ldl  -lutil -lm
+Libs: -L${libdir} -lpython3.9
+Cflags: -I${includedir}/python3.9

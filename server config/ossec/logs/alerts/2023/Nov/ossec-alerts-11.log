@@ -1,0 +1,116 @@
+** Alert 1699736034.0: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2023 Nov 11 22:53:54 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+Trojaned version of file '/bin/diff' detected. Signature used: 'bash|^/bin/sh|file\.h|proc\.h|/dev/[^n]|^/bin/.*sh' (Generic).
+title: Trojaned version of file detected.
+file: /bin/diff
+
+** Alert 1699736034.369: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2023 Nov 11 22:53:54 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+Trojaned version of file '/usr/bin/diff' detected. Signature used: 'bash|^/bin/sh|file\.h|proc\.h|/dev/[^n]|^/bin/.*sh' (Generic).
+title: Trojaned version of file detected.
+file: /usr/bin/diff
+
+** Alert 1699736048.748: - ossec,pci_dss_10.6.1,gpg13_10.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,tsc_CC7.2,tsc_CC7.3,
+2023 Nov 11 22:54:08 wazuh->wazuh-monitord
+Rule: 502 (level 3) -> 'Wazuh server started.'
+ossec: Manager started.
+
+** Alert 1699736101.991: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2023 Nov 11 22:55:01 wazuh->/var/log/auth.log
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: wazuh(uid=1000)
+Nov 11 22:55:01 wazuh systemd: pam_unix(systemd-user:session): session opened for user wazuh(uid=1000) by (uid=0)
+uid: 0
+
+** Alert 1699736120.1425: - local,systemd,gpg13_4.3,gdpr_IV_35.7.d,
+2023 Nov 11 22:55:20 wazuh->/var/log/syslog
+Rule: 40704 (level 5) -> 'Systemd: Service exited due to a failure.'
+Nov 11 22:55:19 wazuh systemd[1443]: xdg-permission-store.service: Main process exited, code=exited, status=1/FAILURE
+
+** Alert 1699736140.1725: - local,syslog,apparmor,
+2023 Nov 11 22:55:40 wazuh->/var/log/syslog
+Rule: 52002 (level 3) -> 'Apparmor DENIED'
+Nov 11 22:55:38 wazuh kernel: [  138.156049] audit: type=1400 audit(1699736138.451:51): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.firefox" name="/var/lib/" pid=4480 comm="5" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+
+** Alert 1699736140.2118: - local,syslog,apparmor,
+2023 Nov 11 22:55:40 wazuh->/var/log/syslog
+Rule: 52002 (level 3) -> 'Apparmor DENIED'
+Nov 11 22:55:38 wazuh kernel: [  138.161744] audit: type=1400 audit(1699736138.459:52): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.firefox" name="/var/lib/" pid=4480 comm="5" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+
+** Alert 1699736140.2511: - local,syslog,apparmor,
+2023 Nov 11 22:55:40 wazuh->/var/log/kern.log
+Rule: 52002 (level 3) -> 'Apparmor DENIED'
+Nov 11 22:55:38 wazuh kernel: [  138.156049] audit: type=1400 audit(1699736138.451:51): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.firefox" name="/var/lib/" pid=4480 comm="5" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+
+** Alert 1699736140.2906: - local,syslog,apparmor,
+2023 Nov 11 22:55:40 wazuh->/var/log/kern.log
+Rule: 52002 (level 3) -> 'Apparmor DENIED'
+Nov 11 22:55:38 wazuh kernel: [  138.161744] audit: type=1400 audit(1699736138.459:52): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.firefox" name="/var/lib/" pid=4480 comm="5" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+
+** Alert 1699736174.3301: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2023 Nov 11 22:56:14 wazuh->/var/log/auth.log
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root(uid=0)
+Nov 11 22:56:12 wazuh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+uid: 1000
+
+** Alert 1699736236.3729: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2023 Nov 11 22:57:16 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+Trojaned version of file '/bin/diff' detected. Signature used: 'bash|^/bin/sh|file\.h|proc\.h|/dev/[^n]|^/bin/.*sh' (Generic).
+title: Trojaned version of file detected.
+file: /bin/diff
+
+** Alert 1699736236.4101: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2023 Nov 11 22:57:16 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+Trojaned version of file '/usr/bin/diff' detected. Signature used: 'bash|^/bin/sh|file\.h|proc\.h|/dev/[^n]|^/bin/.*sh' (Generic).
+title: Trojaned version of file detected.
+file: /usr/bin/diff
+
+** Alert 1699736248.4481: - ossec,pci_dss_10.6.1,gpg13_10.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,tsc_CC7.2,tsc_CC7.3,
+2023 Nov 11 22:57:28 wazuh->wazuh-monitord
+Rule: 502 (level 3) -> 'Wazuh server started.'
+ossec: Manager started.
+
+** Alert 1699736439.4725: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2023 Nov 11 23:00:39 wazuh->/var/log/auth.log
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: wazuh(uid=1000)
+Nov 11 23:00:39 wazuh systemd: pam_unix(systemd-user:session): session opened for user wazuh(uid=1000) by (uid=0)
+uid: 0
+
+** Alert 1699736464.5160: - local,systemd,gpg13_4.3,gdpr_IV_35.7.d,
+2023 Nov 11 23:01:04 wazuh->/var/log/syslog
+Rule: 40704 (level 5) -> 'Systemd: Service exited due to a failure.'
+Nov 11 23:01:03 wazuh systemd[1345]: xdg-permission-store.service: Main process exited, code=exited, status=1/FAILURE
+
+** Alert 1699736464.5460: - local,syslog,apparmor,
+2023 Nov 11 23:01:04 wazuh->/var/log/syslog
+Rule: 52002 (level 3) -> 'Apparmor DENIED'
+Nov 11 23:01:03 wazuh kernel: [  260.943492] audit: type=1400 audit(1699736463.649:51): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.firefox" name="/var/lib/" pid=4603 comm="5" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+
+** Alert 1699736464.5853: - local,syslog,apparmor,
+2023 Nov 11 23:01:04 wazuh->/var/log/syslog
+Rule: 52002 (level 3) -> 'Apparmor DENIED'
+Nov 11 23:01:03 wazuh kernel: [  260.955537] audit: type=1400 audit(1699736463.661:52): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.firefox" name="/var/lib/" pid=4603 comm="5" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+
+** Alert 1699736464.6246: - local,syslog,apparmor,
+2023 Nov 11 23:01:04 wazuh->/var/log/kern.log
+Rule: 52002 (level 3) -> 'Apparmor DENIED'
+Nov 11 23:01:03 wazuh kernel: [  260.943492] audit: type=1400 audit(1699736463.649:51): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.firefox" name="/var/lib/" pid=4603 comm="5" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+
+** Alert 1699736464.6641: - local,syslog,apparmor,
+2023 Nov 11 23:01:04 wazuh->/var/log/kern.log
+Rule: 52002 (level 3) -> 'Apparmor DENIED'
+Nov 11 23:01:03 wazuh kernel: [  260.955537] audit: type=1400 audit(1699736463.661:52): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.firefox" name="/var/lib/" pid=4603 comm="5" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+
+** Alert 1699736516.7036: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2023 Nov 11 23:01:56 wazuh->/var/log/auth.log
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root(uid=0)
+Nov 11 23:01:56 wazuh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+uid: 1000
+

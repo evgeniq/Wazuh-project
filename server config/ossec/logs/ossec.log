@@ -1,0 +1,156 @@
+2024/01/08 20:08:46 wazuh-monitord: INFO: Starting new log after rotation.
+2024/01/08 20:08:46 wazuh-monitord: INFO: No previous md5 checksum found: 'logs/archives/2024/Jan/ossec-archive-07.log.sum'. Starting over.
+2024/01/08 20:08:46 wazuh-monitord: INFO: No previous sha1 checksum found: 'logs/archives/2024/Jan/ossec-archive-07.log.sum'. Starting over.
+2024/01/08 20:08:46 wazuh-monitord: INFO: No previous sha256 checksum found: 'logs/archives/2024/Jan/ossec-archive-07.log.sum'. Starting over.
+2024/01/08 20:08:46 wazuh-monitord: INFO: No previous md5 checksum found: 'logs/archives/2024/Jan/ossec-archive-07.json.sum'. Starting over.
+2024/01/08 20:08:46 wazuh-monitord: INFO: No previous sha1 checksum found: 'logs/archives/2024/Jan/ossec-archive-07.json.sum'. Starting over.
+2024/01/08 20:08:46 wazuh-monitord: INFO: No previous sha256 checksum found: 'logs/archives/2024/Jan/ossec-archive-07.json.sum'. Starting over.
+2024/01/08 20:08:46 wazuh-monitord: INFO: No previous md5 checksum found: 'logs/alerts/2024/Jan/ossec-alerts-07.log.sum'. Starting over.
+2024/01/08 20:08:46 wazuh-monitord: INFO: No previous sha1 checksum found: 'logs/alerts/2024/Jan/ossec-alerts-07.log.sum'. Starting over.
+2024/01/08 20:08:46 wazuh-monitord: INFO: No previous sha256 checksum found: 'logs/alerts/2024/Jan/ossec-alerts-07.log.sum'. Starting over.
+2024/01/08 20:08:47 wazuh-monitord: INFO: No previous md5 checksum found: 'logs/alerts/2024/Jan/ossec-alerts-07.json.sum'. Starting over.
+2024/01/08 20:08:47 wazuh-monitord: INFO: No previous sha1 checksum found: 'logs/alerts/2024/Jan/ossec-alerts-07.json.sum'. Starting over.
+2024/01/08 20:08:47 wazuh-monitord: INFO: No previous sha256 checksum found: 'logs/alerts/2024/Jan/ossec-alerts-07.json.sum'. Starting over.
+2024/01/08 20:08:47 wazuh-monitord: INFO: No previous md5 checksum found: 'logs/firewall/2024/Jan/ossec-firewall-07.log.sum'. Starting over.
+2024/01/08 20:08:47 wazuh-monitord: INFO: No previous sha1 checksum found: 'logs/firewall/2024/Jan/ossec-firewall-07.log.sum'. Starting over.
+2024/01/08 20:08:47 wazuh-monitord: INFO: No previous sha256 checksum found: 'logs/firewall/2024/Jan/ossec-firewall-07.log.sum'. Starting over.
+2024/01/08 20:10:34 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2024/01/08 20:10:34 wazuh-dbd: INFO: Database not configured. Clean exit.
+2024/01/08 20:10:34 wazuh-integratord: INFO: Started (pid: 1830).
+2024/01/08 20:10:34 wazuh-integratord: INFO: Enabling integration for: 'custom-jira'.
+2024/01/08 20:10:34 wazuh-integratord: INFO: Enabling integration for: 'virustotal'.
+2024/01/08 20:10:34 wazuh-agentlessd: INFO: Not configured. Exiting.
+2024/01/08 20:10:34 wazuh-authd: INFO: Started (pid: 1869).
+2024/01/08 20:10:34 wazuh-authd: INFO: Accepting connections on port 1515. No password required.
+2024/01/08 20:10:34 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2024/01/08 20:10:34 wazuh-db: INFO: Started (pid: 1898).
+2024/01/08 20:10:35 wazuh-execd: INFO: Started (pid: 1941).
+2024/01/08 20:10:38 wazuh-analysisd: INFO: Total rules enabled: '6781'
+2024/01/08 20:10:38 wazuh-analysisd: INFO: White listing IP: '127.0.0.1'
+2024/01/08 20:10:38 wazuh-analysisd: INFO: White listing IP: '127.0.0.53'
+2024/01/08 20:10:38 wazuh-analysisd: INFO: 2 IPs in the white list for active response.
+2024/01/08 20:10:38 wazuh-analysisd: INFO: White listing Hostname: 'localhost.localdomain'
+2024/01/08 20:10:38 wazuh-analysisd: INFO: 1 Hostname(s) in the white list for active response.
+2024/01/08 20:10:38 wazuh-analysisd: INFO: Started (pid: 1973).
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: Started (pid: 1997).
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2024/01/08 20:10:38 rootcheck: INFO: Starting rootcheck scan.
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2024/01/08 20:10:38 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2024/01/08 20:10:38 wazuh-remoted: INFO: Started (pid: 2021). Listening on port 1514/TCP (secure).
+2024/01/08 20:10:38 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2024/01/08 20:10:40 wazuh-analysisd: INFO: (7200): Logtest started
+2024/01/08 20:10:40 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2024/01/08 20:10:40 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2024/01/08 20:10:40 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2024/01/08 20:10:40 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2024/01/08 20:10:40 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/log/auth.log'.
+2024/01/08 20:10:40 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/log/syslog'.
+2024/01/08 20:10:40 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/log/dpkg.log'.
+2024/01/08 20:10:40 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/log/kern.log'.
+2024/01/08 20:10:40 wazuh-logcollector: INFO: Started (pid: 2073).
+2024/01/08 20:10:41 wazuh-monitord: INFO: Started (pid: 2124).
+2024/01/08 20:10:43 wazuh-modulesd: INFO: Started (pid: 2156).
+2024/01/08 20:10:43 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2024/01/08 20:10:43 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2024/01/08 20:10:43 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2024/01/08 20:10:43 sca: INFO: Module started.
+2024/01/08 20:10:43 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2024/01/08 20:10:43 wazuh-modulesd:database: INFO: Module started.
+2024/01/08 20:10:43 wazuh-modulesd:download: INFO: Module started.
+2024/01/08 20:10:43 wazuh-modulesd:control: INFO: Starting control thread.
+2024/01/08 20:10:44 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2024/01/08 20:10:44 sca: INFO: Starting Security Configuration Assessment scan.
+2024/01/08 20:10:44 wazuh-analysisd: INFO: Connected to 'queue/alerts/ar' (active-response queue)
+2024/01/08 20:10:44 wazuh-analysisd: INFO: Connected to 'queue/alerts/execq' (exec queue)
+2024/01/08 20:10:44 wazuh-modulesd:syscollector: INFO: Module started.
+2024/01/08 20:10:44 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2024/01/08 20:10:44 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2024/01/08 20:10:44 wazuh-modulesd:vulnerability-detector: INFO: (5400): Starting 'Ubuntu Trusty' database update.
+2024/01/08 20:10:44 wazuh-analysisd: INFO: EPS limit disabled
+2024/01/08 20:10:45 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2024/01/08 20:10:54 wazuh-modulesd:vulnerability-detector: ERROR: (5502): Could not load the CVE OVAL for 'TRUSTY'. 'XMLERR: Attribute '?' has no value.'
+2024/01/08 20:10:54 wazuh-modulesd:vulnerability-detector: INFO: (5400): Starting 'Ubuntu Xenial' database update.
+2024/01/08 20:11:06 wazuh-modulesd:vulnerability-detector: ERROR: (5502): Could not load the CVE OVAL for 'XENIAL'. 'XMLERR: Attribute '?' has no value.'
+2024/01/08 20:11:06 wazuh-modulesd:vulnerability-detector: INFO: (5400): Starting 'Ubuntu Bionic' database update.
+2024/01/08 20:11:07 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2024/01/08 20:11:07 sca: INFO: Security Configuration Assessment scan finished. Duration: 23 seconds.
+2024/01/08 20:11:12 wazuh-modulesd:vulnerability-detector: ERROR: (5502): Could not load the CVE OVAL for 'BIONIC'. 'XMLERR: Attribute '?' has no value.'
+2024/01/08 20:11:12 wazuh-modulesd:vulnerability-detector: INFO: (5400): Starting 'Ubuntu Focal' database update.
+2024/01/08 20:11:15 wazuh-modulesd:vulnerability-detector: ERROR: (5502): Could not load the CVE OVAL for 'FOCAL'. 'XMLERR: Attribute '?' has no value.'
+2024/01/08 20:11:15 wazuh-modulesd:vulnerability-detector: INFO: (5400): Starting 'Ubuntu Jammy' database update.
+2024/01/08 20:11:18 wazuh-modulesd:vulnerability-detector: ERROR: (5502): Could not load the CVE OVAL for 'JAMMY'. 'XMLERR: Attribute '?' has no value.'
+2024/01/08 20:11:18 wazuh-modulesd:vulnerability-detector: INFO: (5400): Starting 'National Vulnerability Database' database update.
+2024/01/08 20:11:30 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2024/01/08 20:11:30 wazuh-syscheckd: INFO: FIM sync module started.
+2024/01/08 20:14:19 rootcheck: INFO: Ending rootcheck scan.
+2024/01/08 20:19:07 wazuh-modulesd:vulnerability-detector: INFO: (5430): The update of the 'National Vulnerability Database' feed finished successfully.
+2024/01/08 20:19:07 wazuh-modulesd:vulnerability-detector: INFO: (5400): Starting 'Microsoft Security Update' database update.
+2024/01/08 20:19:07 wazuh-modulesd:vulnerability-detector: INFO: (5430): The update of the 'Microsoft Security Update' feed finished successfully.
+2024/01/08 20:19:07 wazuh-modulesd:vulnerability-detector: ERROR: (5513): CVE database could not be updated.
+2024/01/08 20:19:07 wazuh-modulesd:vulnerability-detector: INFO: (5431): Starting vulnerability scan.
+2024/01/08 20:19:07 wazuh-modulesd:vulnerability-detector: WARNING: (5575): Unavailable vulnerability data for the agent '000' OS. Skipping it.
+2024/01/08 20:19:08 wazuh-modulesd:vulnerability-detector: INFO: (5450): Analyzing agent '003' vulnerabilities.
+2024/01/08 20:19:11 wazuh-modulesd:vulnerability-detector: INFO: (5471): Finished vulnerability assessment for agent '003'
+2024/01/08 20:19:11 wazuh-modulesd:vulnerability-detector: INFO: (5472): Vulnerability scan finished.
+2024/01/08 20:19:12 wazuh-modulesd:vulnerability-detector: INFO: (5400): Starting 'Ubuntu Trusty' database update.
+2024/01/08 20:19:15 wazuh-modulesd:vulnerability-detector: ERROR: (5502): Could not load the CVE OVAL for 'TRUSTY'. 'XMLERR: Attribute '?' has no value.'
+2024/01/08 20:19:15 wazuh-modulesd:vulnerability-detector: INFO: (5400): Starting 'Ubuntu Xenial' database update.
+2024/01/08 20:19:18 wazuh-modulesd:vulnerability-detector: ERROR: (5502): Could not load the CVE OVAL for 'XENIAL'. 'XMLERR: Attribute '?' has no value.'
+2024/01/08 20:19:18 wazuh-modulesd:vulnerability-detector: INFO: (5400): Starting 'Ubuntu Bionic' database update.
+2024/01/08 20:19:21 wazuh-modulesd:vulnerability-detector: ERROR: (5502): Could not load the CVE OVAL for 'BIONIC'. 'XMLERR: Attribute '?' has no value.'
+2024/01/08 20:19:21 wazuh-modulesd:vulnerability-detector: INFO: (5400): Starting 'Ubuntu Focal' database update.
+2024/01/08 20:19:24 wazuh-modulesd:vulnerability-detector: ERROR: (5502): Could not load the CVE OVAL for 'FOCAL'. 'XMLERR: Attribute '?' has no value.'
+2024/01/08 20:19:24 wazuh-modulesd:vulnerability-detector: INFO: (5400): Starting 'Ubuntu Jammy' database update.
+2024/01/08 20:19:26 wazuh-modulesd:vulnerability-detector: ERROR: (5502): Could not load the CVE OVAL for 'JAMMY'. 'XMLERR: Attribute '?' has no value.'
+2024/01/08 20:19:26 wazuh-modulesd:vulnerability-detector: ERROR: (5513): CVE database could not be updated.
+2024/01/08 20:24:13 wazuh-modulesd:vulnerability-detector: INFO: (5431): Starting vulnerability scan.
+2024/01/08 20:24:13 wazuh-modulesd:vulnerability-detector: WARNING: (5575): Unavailable vulnerability data for the agent '000' OS. Skipping it.
+2024/01/08 20:24:13 wazuh-modulesd:vulnerability-detector: INFO: (5450): Analyzing agent '003' vulnerabilities.
+2024/01/08 20:24:13 wazuh-modulesd:vulnerability-detector: INFO: (5471): Finished vulnerability assessment for agent '003'
+2024/01/08 20:24:13 wazuh-modulesd:vulnerability-detector: INFO: (5472): Vulnerability scan finished.
+2024/01/08 20:29:17 wazuh-modulesd:vulnerability-detector: INFO: (5431): Starting vulnerability scan.
+2024/01/08 20:29:18 wazuh-modulesd:vulnerability-detector: WARNING: (5575): Unavailable vulnerability data for the agent '000' OS. Skipping it.
+2024/01/08 20:29:18 wazuh-modulesd:vulnerability-detector: INFO: (5450): Analyzing agent '003' vulnerabilities.
+2024/01/08 20:29:18 wazuh-modulesd:vulnerability-detector: INFO: (5471): Finished vulnerability assessment for agent '003'
+2024/01/08 20:29:18 wazuh-modulesd:vulnerability-detector: INFO: (5472): Vulnerability scan finished.
+2024/01/08 20:34:19 wazuh-modulesd:vulnerability-detector: INFO: (5431): Starting vulnerability scan.
+2024/01/08 20:34:19 wazuh-modulesd:vulnerability-detector: WARNING: (5575): Unavailable vulnerability data for the agent '000' OS. Skipping it.
+2024/01/08 20:34:19 wazuh-modulesd:vulnerability-detector: INFO: (5450): Analyzing agent '003' vulnerabilities.
+2024/01/08 20:34:19 wazuh-modulesd:vulnerability-detector: INFO: (5471): Finished vulnerability assessment for agent '003'
+2024/01/08 20:34:19 wazuh-modulesd:vulnerability-detector: INFO: (5472): Vulnerability scan finished.
+2024/01/08 20:39:20 wazuh-modulesd:vulnerability-detector: INFO: (5431): Starting vulnerability scan.
+2024/01/08 20:39:20 wazuh-modulesd:vulnerability-detector: WARNING: (5575): Unavailable vulnerability data for the agent '000' OS. Skipping it.
+2024/01/08 20:39:20 wazuh-modulesd:vulnerability-detector: INFO: (5450): Analyzing agent '003' vulnerabilities.
+2024/01/08 20:39:20 wazuh-modulesd:vulnerability-detector: INFO: (5471): Finished vulnerability assessment for agent '003'
+2024/01/08 20:39:20 wazuh-modulesd:vulnerability-detector: INFO: (5472): Vulnerability scan finished.
+2024/01/08 20:44:20 wazuh-modulesd:vulnerability-detector: INFO: (5431): Starting vulnerability scan.
+2024/01/08 20:44:21 wazuh-modulesd:vulnerability-detector: WARNING: (5575): Unavailable vulnerability data for the agent '000' OS. Skipping it.
+2024/01/08 20:44:21 wazuh-modulesd:vulnerability-detector: INFO: (5450): Analyzing agent '003' vulnerabilities.
+2024/01/08 20:44:21 wazuh-modulesd:vulnerability-detector: INFO: (5471): Finished vulnerability assessment for agent '003'
+2024/01/08 20:44:21 wazuh-modulesd:vulnerability-detector: INFO: (5472): Vulnerability scan finished.
+2024/01/08 20:49:22 wazuh-modulesd:vulnerability-detector: INFO: (5431): Starting vulnerability scan.
+2024/01/08 20:49:22 wazuh-modulesd:vulnerability-detector: WARNING: (5575): Unavailable vulnerability data for the agent '000' OS. Skipping it.
+2024/01/08 20:49:22 wazuh-modulesd:vulnerability-detector: INFO: (5450): Analyzing agent '003' vulnerabilities.
+2024/01/08 20:49:22 wazuh-modulesd:vulnerability-detector: INFO: (5471): Finished vulnerability assessment for agent '003'
+2024/01/08 20:49:22 wazuh-modulesd:vulnerability-detector: INFO: (5472): Vulnerability scan finished.
